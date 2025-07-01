@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Nosotros | Insultos Cariñosos</title>
+  <link rel="icon" type="image/x-icon" href="IMG/logoTienda.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/sobre-nosotros.css">
+</head>
+<body>
+  <div class="main-container">
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="nav-container">
+        <a href="Home.html" class="logo">
+          <i class="fas fa-heart"></i> Insultos Cariñosos
+        </a>
+        <ul class="nav-menu" id="navMenu" aria-label="Menú principal">
+          <li class="nav-item"><a href="Home.html" class="nav-link"><i class="fas fa-home"></i> Inicio</a></li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link active" id="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-info-circle"></i> Sobre <i class="fas fa-chevron-down"></i>
+            </a>
+            <ul class="dropdown-menu" aria-label="Submenú Sobre">
+              <li><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+              <li><a href="Procesos.html">Nuestros Procesos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link" id="nav-dropdown-productos" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-tshirt"></i> Productos <i class="fas fa-chevron-down"></i>
+            </a>
+            <ul class="dropdown-menu" aria-label="Submenú Productos">
+              <li><a href="Producto.html#tazas">Tazas</a></li>
+              <li><a href="Producto.html#polos">Polos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="Contacto.html" class="nav-link"><i class="fas fa-envelope"></i> Contacto</a></li>
+        </ul>
+        <div class="nav-actions">
+          <div class="cart-icon" id="cart-icon-btn">
+            <i class="fas fa-shopping-cart"></i><span class="cart-count" id="cartCount">0</span>
+          </div>
+          <div class="user-icon" id="userIconBtn" tabindex="0" aria-label="Iniciar sesión o ver perfil">
+            <a href="Login.html" id="userIconLink"><i class="fas fa-user-circle"></i></a>
+          </div>
+          <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menú"><i class="fas fa-bars"></i></button>
+        </div>
+        <div class="nav-blur-bg" id="navBlurBg"></div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main-content sobre-nosotros">
+      <section class="sobre-nosotros-page">
+        <div class="container">
+          <div class="section-header">
+            <h1 class="section-title">Nuestra Historia</h1>
+            <p class="section-subtitle">Transformando insultos en amor desde 2025. Conoce a las mentes (y corazones) detrás de la marca más sarcástica y cariñosa.</p>
+          </div>
+          
+          <div class="team-grid">
+            <div class="team-card">
+              <img src="IMG/ani.jpg" alt="Foto de Ani" class="team-avatar">
+              <h3 class="team-name">Ani</h3>
+              <p class="team-role">Frontend Rockstar</p>
+              <p class="team-desc">Convierte cada página en una experiencia visual adorablemente insultante.</p>
+            </div>
+            <div class="team-card">
+              <img src="IMG/schneider.jpg" alt="Foto de Schneider" class="team-avatar">
+              <h3 class="team-name">Schneider</h3>
+              <p class="team-role">Backend Sensei</p>
+              <p class="team-desc">El motor cómico y lógico que hace que todo funcione (incluso cuando nadie lo ve).</p>
+            </div>
+            <div class="team-card">
+              <img src="IMG/adri.jpg" alt="Foto de Adri" class="team-avatar">
+              <h3 class="team-name">Adri</h3>
+              <p class="team-role">Diseñador de Insultos</p>
+              <p class="team-desc">El artista que se asegura de que cada "te odio" suene como un "te quiero".</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mision-valores">
+        <div class="container">
+          <h2 class="section-title">Nuestra misión</h2>
+          <p class="section-subtitle">Queremos que el amor y el humor vayan de la mano. Por eso, cada producto está pensado para arrancar sonrisas, crear recuerdos y demostrar que el cariño puede ser tan ácido como dulce.</p>
+          <ul class="valores-list">
+            <li><i class="fas fa-heart"></i> Creatividad y originalidad en cada diseño</li>
+            <li><i class="fas fa-mug-hot"></i> Productos de calidad y personalizados</li>
+            <li><i class="fas fa-laugh"></i> Humor y amor en cada insulto</li>
+            <li><i class="fas fa-users"></i> Cercanía y atención a cada cliente</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="social-media">
+        <div class="container">
+          <h3 class="social-title">Síguenos en redes sociales</h3>
+          <p class="social-subtitle">Comparte tus productos favoritos y etiqueta a ese ser insoportable que adoras</p>
+          <div class="social-icons">
+            <a href="#" target="_blank" class="social-link instagram"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+            <a href="#" target="_blank" class="social-link facebook"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
+            <a href="#" target="_blank" class="social-link tiktok"><i class="fab fa-tiktok"></i><span>TikTok</span></a>
+            <a href="#" target="_blank" class="social-link twitter"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-section">
+          <h3 class="footer-title"><i class="fas fa-heart"></i> Insultos Cariñosos</h3>
+          <p class="footer-description">El único lugar donde los insultos y el amor se dan la mano. Ocasionalmente, una bofetada.</p>
+          <div class="footer-social">
+            <a href="#" class="footer-social-link pop-hover"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="footer-social-link pop-hover"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer-social-link pop-hover"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4 class="footer-section-title">Enlaces Rápidos</h4>
+          <ul class="footer-links">
+            <li><a href="Home.html">Inicio</a></li>
+            <li><a href="Producto.html">Productos</a></li>
+            <li><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4 class="footer-section-title">Ayuda</h4>
+          <ul class="footer-links">
+            <li><a href="#">Preguntas Frecuentes</a></li>
+            <li><a href="#">Envíos y Devoluciones</a></li>
+            <li><a href="#">Política de Privacidad</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4 class="footer-section-title">Contacto</h4>
+          <div class="footer-contact">
+            <p><i class="fas fa-envelope"></i> hola@insultoscarinosos.com</p>
+            <p><i class="fas fa-phone-alt"></i> +34 666 INSULTO</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Insultos Cariñosos. Todos los derechos reservados... supongo.</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to top -->
+    <button class="scroll-to-top" id="scrollToTop">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="JS/main.js" defer></script>
+  </div>
+</body>
+</html>
